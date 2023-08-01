@@ -1,0 +1,65 @@
+/*-------------------------------------------------
+    Table of Css
+	1.About page Testimonials section
+-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*    1.About page Testimonials section
+/*-------------------------------------------------*/
+
+.flex{
+    display: flex;
+}
+
+.home-top-cour.testimonial-card-wrapper{
+    -moz-outline-radius: 50%;
+    /* border: 2px solid red; */
+    border-radius: 15px;
+    
+}
+.testimonial-card-wrapper{
+    /* display: flex; */
+    align-items: flex-start;
+    padding: 10px;
+    gap: 1rem;
+    overflow: scroll;
+}
+.testimonial-card-header{
+    align-items: flex-start;
+    gap: 1rem;
+    justify-content: space-between;
+}
+.student-name-profile-img{
+    align-items: flex-start;
+    gap: 1rem;
+    justify-content: flex-start;
+}
+.student-name-profile-img>img{
+    border-radius: 50%;
+    width: 60px;
+}
+.student-name-profile-img .student-name-position p {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+.student-name-profile-img .student-name-position span {
+    color: #484848;
+    display: block;
+    font-size: 14px;
+}
+.student-name-profile-img .student-name-position>img {
+    margin-top: 7px;
+    width: 60px;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+.testimonial-card-wrapper .student-testimonial {
+    margin-top: 10px;
+}
+.testimonial-card-wrapper .student-testimonial p {
+    color: #484848;
+}
