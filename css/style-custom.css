@@ -43,6 +43,7 @@
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 2px;
+    width: 100%;
 }
 .student-name-profile-img .student-name-position span {
     color: #484848;
@@ -63,4 +64,19 @@ svg:not(:root) {
 }
 .testimonial-card-wrapper .student-testimonial p {
     color: #484848;
+    text-align: justify;
+}
+
+/* cyber security courses section styling  */
+.sub-courses-heading{
+    color: red  ;
+    background: #de999994;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    border-radius: 20px;
+    display: block;
+    font-weight: 800;
+    padding: 5px 10px;
+    /* text-decoration: underline; */
 }
