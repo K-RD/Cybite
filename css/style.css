@@ -3110,10 +3110,15 @@
  .mm1-s2 p{
      font-size: 12px;
      color: #203245;
+     text-align: justify;
 }
  .mm1-s2 a{
 }
  .mm1-s3{
+}.mm1-s3 p{
+    font-size: 12px;
+    color: #203245;
+    text-align: justify;
 }
  .mm1-s3 ul{
 }
@@ -3122,7 +3127,7 @@
 }
  .mm-arr:after {
 }
- .m-menu-inn > .mm1-s2 > .mm-r-m-btn{
+ .m-menu-inn > :is(.mm1-s2, .mm1-s3) > .mm-r-m-btn {
      background: #002147;
      padding: 4px 10px;
      color: #fff;
