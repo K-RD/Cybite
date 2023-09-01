@@ -4111,6 +4111,7 @@ left: 0;
  .wed-logo a{
 }
  .wed-logo a img{
+    max-width: 220px;
 }
  .ed-mm-right{
      float: left;
